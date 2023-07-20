@@ -1,6 +1,5 @@
 import React from "react";
 import '../Component/Navbar.css';
-import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 
 const Navbar = () => {
   const scrollToTop = (event) => {

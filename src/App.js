@@ -40,7 +40,7 @@ function App() {
               programming language called "lua" and the assistance of Chat GPT when I have troubles. 
               <br />
               <br />
-              &nbsp;&nbsp;&nbsp;Along with that, I took apart the HTML code for the anime list portion of <a href="https://myanimelist.net" target="_blank">MyAnimeList</a>&nbsp;and added 
+              &nbsp;&nbsp;&nbsp;Along with that, I took apart the HTML code for the anime list portion of <a href="https://myanimelist.net" target="_blank" rel="noreferrer">MyAnimeList</a>&nbsp;and added 
               some custom elements to it.
             </FadeInUp>
           </div>
