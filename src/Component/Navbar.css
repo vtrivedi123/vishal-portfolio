@@ -1,0 +1,104 @@
+.custom-margin {
+  margin-left: 5px;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav {
+	position: fixed;
+	top: -5px;
+	z-index: 2;
+	height: 70px;
+	min-height: 70px;
+	width: calc(100%);
+	background-color: #fff;
+	padding: 0 1rem;
+	box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#about {
+  margin-top: -50px;
+  height: 30vh;
+  color: #3b3b3c;
+  background: #f3f7fa;
+  justify-content: center;
+  text-align: center;
+}
+
+#personal,
+#contact {
+  height: 30vh;
+  color: #3b3b3c;
+  background: #f3f7fa;
+  justify-content: center;
+  text-align: center;
+}
+
+#downloads,
+#academics {
+  height: 30vh;
+  color: #3b3b3c;
+  background: #eaf2fa;
+  justify-content: center;
+  text-align: center;
+}
+
+#about-i {
+  margin-top: -50px;
+  height: 90vh;
+  color: #3b3b3c;
+  background: #f3f7fa;
+  justify-content: center;
+  text-align: center;
+}
+
+#personal-i,
+#contact-i {
+  height: 90vh;
+  color: #3b3b3c;
+  background: #f3f7fa;
+  justify-content: center;
+  text-align: center;
+}
+
+#downloads-i,
+#academics-i {
+  height: 90vh;
+  color: #3b3b3c;
+  background: #eaf2fa;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust the styles for screens up to 768px wide */
+  #about,
+  #personal,
+  #contact,
+  #downloads,
+  #academics {
+    margin-top: 0;
+    padding: 20px; /* Add some padding to the sections */
+    text-align: left;
+  }
+}

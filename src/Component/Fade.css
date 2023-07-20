@@ -1,0 +1,81 @@
+.fade-in-section-down {
+  opacity: 0;
+  transform: translateY(-20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section-down.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+.fade-in-content-down {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 1s ease, box-shadow 1s ease;
+  will-change: opacity, box-shadow;
+  padding: 6px;
+}
+.fade-in-content-down.is-visible {
+  opacity: 1;
+  background-color: #f3f7fa;
+}
+.fade-in-section-up {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section-up.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+.fade-in-content-up {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 1s ease, box-shadow 1s ease;
+  will-change: opacity, box-shadow;
+  padding: 6px;
+}
+
+.fade-in-content-up.is-visible {
+  opacity: 1;
+  background-color: #f3f7fa;
+}
+.fade-in-section-container {
+  position: relative;
+  top: 550px;
+  color: #3b3b3c;
+  font-size: 15px;
+  text-align: left;
+}
+.fade-in-section-1 {
+  position: relative;
+  right: 65%;
+  top: 10px;
+  width: 40vw; 
+}
+.fade-in-section-2 {
+  position: relative;
+  left: 70%;
+  width: 30vw;
+}
+
+@media (max-width: 1025px) {
+  .fade-in-section-down,
+  .fade-in-content-down {
+    max-width: 300px;
+    position: absolute;
+    right: 0px;
+    width: 100vw;
+    font-size: 14px; /* Adjust the font size as per your requirement */
+  }
+  .fade-in-section-up,
+  .fade-in-content-up {
+    position: absolute;
+    right: 0px;
+    max-width: 300px;
+    width: 100vw;
+  }
+}
