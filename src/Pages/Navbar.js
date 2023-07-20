@@ -15,7 +15,7 @@ const MyNavbar = () => {
   };
 
   return (
-    <Navbar bg="light" expand="lg" className="fixed-top">
+    <Navbar bg="light" expand="lg" className="fixed-top nav">
       <Navbar.Brand className="custom-margin" href="/" onClick={scrollToTop}>
         Portfolio
       </Navbar.Brand>
