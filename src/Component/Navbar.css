@@ -11,8 +11,9 @@ section {
 }
 
 .nav {
+	width: calc(100%);
 	background-color: #fff;
-	padding: 0 1rem;
+	padding: 100 1rem;
 	box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
