@@ -34,6 +34,14 @@ section {
   transition: transform 0.3s ease;
   transform-origin: 0 0;
 }
+.navbar-ani-under.active {
+  color: #55b8d4 !important;
+} 
+
+.navbar-ani-under.active:after {
+  transform: translateX(-50%) scaleX(1);
+  height: 2px;
+}
 
 .navbar-ani-under:hover {
   color: #55b8d4 !important;
@@ -43,6 +51,7 @@ section {
   transform: translateX(-50%) scaleX(1);
   height: 2px;
 }
+
 @media (max-width: 1000px) {
   .navbar-ani-under {
     transition: color 0.2s ease !important;
