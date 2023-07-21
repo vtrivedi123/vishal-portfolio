@@ -1,56 +1,43 @@
 .button {
-  position: absolute;
-  bottom: -110px;
-  left: 0;
-  right: 0;
-  margin: auto;
+  position: relative; /* Change position to relative to avoid overlapping issues */
+  margin: 20px auto;
   text-align: center;
   z-index: 100;
   width: 50px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent; /* Set background to transparent */
 }
 
 .button_inner {
-  position: absolute;
-  width: 100%;
-  height: 0;
-  padding-top: 100%; /* Maintain 1:1 aspect ratio for the image (height = width) */
-  left: 0;
-  right: 0;
-  top: 100%;
-  margin: auto;
+  display: flex; /* Use Flexbox for the inner container */
+  justify-content: center;
+  align-items: center;
+  width: 50px; /* Adjust the width to your preference */
+  height: 50px; /* Set the height to the desired value */
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.04);
   font-weight: 100;
   cursor: pointer;
   border: none;
   color: none;
-  text-align: center;
-  justify-content: center;
-  background-image: url('/src/Assets/downarrow.png'); /* Replace 'path/to/your/image.png' with the actual path to your image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-position: center; /* Center the image horizontally */
-  background-size: cover; /* Cover the entire container with the image */
-  opacity: 1; /* Initially set opacity to 1 (fully visible) */
+  background-image: url('/src/Assets/downarrow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
   transition: all 0.3s, box-shadow 0.2s;
 }
 
 .button_inner:hover {
   color: #55b8d4;
   background-image: url('/src/Assets/downarrow.png');
-
-  /* Move the button down slightly on hover with a smooth animation */
-  transform: translateY(5px); /* Adjust the value as per your preference */
+  transform: translateY(5px);
 }
 
 /* Tailwind CSS Responsive Classes */
 @media (max-width: 1000px) {
   .button {
-    position: relative;
-    bottom: -2vh;
-    top: auto;
-    left: auto;
-    right: auto;
     margin: 20px auto;
-    text-align: center;
     font-size: 12px;
   }
 }
