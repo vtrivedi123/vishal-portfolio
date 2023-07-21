@@ -53,11 +53,6 @@ section {
   }
 }
 
-.github-logo:hover {
-  border-color: #333; /* Change the border color on hover */
-}
-
-
 .smooth-scroll {
   scroll-behavior: smooth;
   scroll-behavior: 10000s;

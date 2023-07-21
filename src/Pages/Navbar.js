@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, OverlayTrigger, Tooltip } from "react-bootstrap";
 import LogoImage from "../Assets/gh.png"; // Replace "../assets/github-logo.png" with the path to your GitHub logo image.
 import "../Component/Navbar.css";
 
@@ -14,6 +14,12 @@ const MyNavbar = () => {
     const section = document.getElementById(sectionId);
     section.scrollIntoView({ behavior: "smooth" });
   };
+  
+  const renderTooltip = (props) => (
+    <Tooltip id="github-tooltip" {...props}>
+      GitHub
+    </Tooltip>
+  );
 
   return (
     <Navbar bg="light" expand="lg" className="fixed-top nav smooth-scroll">
@@ -38,10 +44,12 @@ const MyNavbar = () => {
         </Nav>
         {/* Add the GitHub logo button here */}
         <div className="github-logo-wrapper">
+        <OverlayTrigger placement="bottom" overlay={renderTooltip}>
           <Nav.Link href="https://github.com/vtrivedi123/vishal-portfolio" target="_blank" rel="noopener noreferrer">
             <img src={LogoImage} alt="GitHub Logo" className="github-logo" />
           </Nav.Link>
-        </div>
+        </OverlayTrigger>
+      </div>
       </Navbar.Collapse>
     </Navbar>
   );
