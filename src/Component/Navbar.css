@@ -16,11 +16,37 @@ section {
   padding: 100 1rem;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
+.navbar-ani-under {
+  position: relative;
+  transition: color 0.3s ease;
+  color: #4b4b4b !important;
+}
 
+.navbar-ani-under:after {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  width: 100%;
+  height: 3px;
+  transform: translateX(-50%) scaleX(0);
+  background-color: #55b8d4;
+  transition: transform 0.3s ease;
+  transform-origin: 0 0;
+}
+
+.navbar-ani-under:hover {
+  color: #55b8d4 !important;
+}
+
+.navbar-ani-under:hover:after {
+  transform: translateX(-50%) scaleX(1);
+  height: 2px;
+}
 .github-logo-wrapper {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Align the logo to the right */
+  justify-content: flex-end;
 }
 
 .github-logo {

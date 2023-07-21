@@ -29,16 +29,16 @@ const MyNavbar = () => {
       <Navbar.Toggle aria-controls="navbarNavDropdown" />
       <Navbar.Collapse id="navbarNavDropdown">
         <Nav className="mr-auto mt-2 mt-lg-0">
-          <Nav.Link href="about" onClick={(e) => scrollToSection(e, "about")} className="smooth-scroll">
+          <Nav.Link href="about" onClick={(e) => scrollToSection(e, "about")} className="smooth-scroll navbar-ani-under">
             About
           </Nav.Link>
-          <Nav.Link href="academics" onClick={(e) => scrollToSection(e, "academics")} className="smooth-scroll">
+          <Nav.Link href="academics" onClick={(e) => scrollToSection(e, "academics")} className="smooth-scroll navbar-ani-under">
             Academics
           </Nav.Link>
-          <Nav.Link href="personal" onClick={(e) => scrollToSection(e, "personal")} className="smooth-scroll">
+          <Nav.Link href="personal" onClick={(e) => scrollToSection(e, "personal")} className="smooth-scroll navbar-ani-under">
             Personal
           </Nav.Link>
-          <Nav.Link href="contact" onClick={(e) => scrollToSection(e, "contact")} className="smooth-scroll">
+          <Nav.Link href="contact" onClick={(e) => scrollToSection(e, "contact")} className="smooth-scroll navbar-ani-under">
             Contact me
           </Nav.Link>
         </Nav>
