@@ -43,6 +43,20 @@ section {
   transform: translateX(-50%) scaleX(1);
   height: 2px;
 }
+@media (max-width: 1000px) {
+  .navbar-ani-under {
+    position: relative;
+    transition: color 0.3s ease;
+    color: #4b4b4b !important;
+  }
+  .navbar-ani-under:after {
+    transition: none;
+    background-color: transparent;
+  }
+  .navbar-ani-under:hover {
+    color: none;
+  }
+}
 .github-logo-wrapper {
   display: flex;
   align-items: center;
