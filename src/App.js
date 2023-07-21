@@ -1,4 +1,6 @@
+import './interactionObserverMock';
 import React from "react";
+import ReactDOM from 'react-dom';
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -10,6 +12,12 @@ import FadeInUp from "./Pages/FadeInUp";
 import FadeInDown from "./Pages/FadeInDown";
 import ShootingStar from "./Pages/Particles";
 import Footer from "./Pages/Footer";
+
+it('renders learn react link', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
 
 function App() {
   return (
