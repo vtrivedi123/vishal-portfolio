@@ -45,16 +45,15 @@ section {
 }
 @media (max-width: 1000px) {
   .navbar-ani-under {
-    position: relative;
-    transition: color 0.3s ease;
+    transition: none;
     color: #4b4b4b !important;
   }
   .navbar-ani-under:after {
     transition: none;
-    background-color: transparent;
+    background-color: transparent !important;
   }
   .navbar-ani-under:hover {
-    color: none;
+    color: none !important;
   }
 }
 .github-logo-wrapper {
