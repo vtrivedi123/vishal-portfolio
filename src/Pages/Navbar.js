@@ -16,7 +16,6 @@ const MyNavbar = () => {
     const section = document.getElementById(sectionId);
     section.scrollIntoView({ behavior: "smooth" });
 
-    // Close the navbar on smaller devices after clicking a link
     if (expanded) {
       setExpanded(false);
     }
@@ -64,6 +63,13 @@ const MyNavbar = () => {
             className="smooth-scroll navbar-ani-under"
           >
             Personal
+          </Nav.Link>
+          <Nav.Link
+            href="contact"
+            onClick={(e) => scrollToSection(e, "downloads")}
+            className="smooth-scroll navbar-ani-under"
+          >
+            Downloads
           </Nav.Link>
           <Nav.Link
             href="contact"
