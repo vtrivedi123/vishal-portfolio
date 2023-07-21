@@ -15,7 +15,7 @@
   color: #3b3b3c;
   font-size: 15px; /* Use relative font size for responsiveness */
   position: relative;
-  top: 75vh;
+  top: 87vh;
 }
 
 .textbox2 {
@@ -27,7 +27,7 @@
   color: #3b3b3c;
   font-size: 15px; /* Use relative font size for responsiveness */
   position: relative;
-  top: 80vh;
+  top: 92vh;
 }
 
 @media (max-width: 768px) {
@@ -38,8 +38,10 @@
     top: 0;
   }
 
-  .textbox,
+  .textbox {
+    top: 95vh;
+  }
   .textbox2 {
-    top: 101vh;
+    top: 100vh;
   }
 }
