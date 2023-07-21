@@ -11,10 +11,10 @@ section {
 }
 
 .nav {
-	width: calc(100%);
-	background-color: #fff;
-	padding: 100 1rem;
-	box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+  width: calc(100%);
+  background-color: #fff;
+  padding: 100 1rem;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
 .github-logo-wrapper {
@@ -29,27 +29,27 @@ section {
   border-radius: 50%;
 }
 
-
-/* Media query for smaller screens (e.g., dropdown/mobile view) */
-@media (max-width: 768px) {
+@media (max-width: 726px) {
   .github-logo-wrapper {
     justify-content: center; /* Center the logo horizontally */
     flex-direction: column; /* Stack the logo below the text */
   }
 
   .github-logo {
-    margin-top: 10px; /* Add some space between the text and logo */
+    margin-top: 5px; /* Add some space between the text and logo */
+    margin-left: 0; /* Set the horizontal margin to 0 */
   }
 }
 
 /* Media query for larger screens (e.g., computer view) */
-@media (min-width: 769px) {
+@media (min-width: 727px) {
   .github-logo-wrapper {
     justify-content: flex-end; /* Align the logo to the right */
+    flex-grow: 1; /* Allow the logo wrapper to grow and push the logo to the right */
   }
 
   .github-logo {
-    margin-left: 20px; /* Add some space between the text and logo */
+    margin-right: 0px; /* Add some space between the logo and the right edge of the screen */
   }
 }
 
