@@ -70,25 +70,24 @@ section {
 
 @media (max-width: 726px) {
   .github-logo-wrapper {
-    justify-content: center; /* Center the logo horizontally */
-    flex-direction: column; /* Stack the logo below the text */
+    justify-content: center;
+    flex-direction: column;
   }
 
   .github-logo {
-    margin-top: 5px; /* Add some space between the text and logo */
-    margin-left: 0; /* Set the horizontal margin to 0 */
+    margin-top: 5px;
+    margin-left: 0;
   }
 }
 
-/* Media query for larger screens (e.g., computer view) */
 @media (min-width: 727px) {
   .github-logo-wrapper {
-    justify-content: flex-end; /* Align the logo to the right */
-    flex-grow: 1; /* Allow the logo wrapper to grow and push the logo to the right */
+    justify-content: flex-end;
+    flex-grow: 1;
   }
 
   .github-logo {
-    margin-right: 0px; /* Add some space between the logo and the right edge of the screen */
+    margin-right: 0px;
   }
 }
 
@@ -164,16 +163,14 @@ section {
   text-align: center;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
-  /* Adjust the styles for screens up to 768px wide */
   #about,
   #personal,
   #contact,
   #downloads,
   #academics {
     margin-top: 0;
-    padding: 20px; /* Add some padding to the sections */
+    padding: 20px;
     text-align: left;
   }
 }
