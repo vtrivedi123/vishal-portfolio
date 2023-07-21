@@ -17,6 +17,11 @@ section {
 	box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
+.smooth-scroll {
+  scroll-behavior: smooth;
+  scroll-behavior: 10000s;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;

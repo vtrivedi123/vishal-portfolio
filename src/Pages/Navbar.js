@@ -15,23 +15,23 @@ const MyNavbar = () => {
   };
 
   return (
-    <Navbar bg="light" expand="lg" className="fixed-top nav">
+    <Navbar bg="light" expand="lg" className="fixed-top nav smooth-scroll">
       <Navbar.Brand className="custom-margin" href="/" onClick={scrollToTop}>
         Portfolio
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarNavDropdown" />
       <Navbar.Collapse id="navbarNavDropdown">
         <Nav className="mr-auto mt-2 mt-lg-0">
-          <Nav.Link href="about" onClick={(e) => scrollToSection(e, "about")}>
+          <Nav.Link href="about" onClick={(e) => scrollToSection(e, "about")} className="smooth-scroll">
             About
           </Nav.Link>
-          <Nav.Link href="academics" onClick={(e) => scrollToSection(e, "academics")}>
+          <Nav.Link href="academics" onClick={(e) => scrollToSection(e, "academics")} className="smooth-scroll">
             Academics
           </Nav.Link>
-          <Nav.Link href="personal" onClick={(e) => scrollToSection(e, "personal")}>
+          <Nav.Link href="personal" onClick={(e) => scrollToSection(e, "personal")} className="smooth-scroll">
             Personal
           </Nav.Link>
-          <Nav.Link href="contact" onClick={(e) => scrollToSection(e, "contact")}>
+          <Nav.Link href="contact" onClick={(e) => scrollToSection(e, "contact")} className="smooth-scroll">
             Contact me
           </Nav.Link>
         </Nav>
