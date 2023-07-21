@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Navbar, Nav, OverlayTrigger, Tooltip } from "react-bootstrap";
 import LogoImage from "../Assets/gh.png";
 import "../Component/Navbar.css";
-import _debounce from "lodash/debounce";
 
 const scrollToTop = (event) => {
   event.preventDefault();
@@ -12,9 +11,9 @@ const scrollToTop = (event) => {
 const MyNavbar = () => {
   const [expanded, setExpanded] = useState(false);
   const [activeSection, setActiveSection] = useState("");
-  let prevActiveSection = "";
+  let prevActiveSection = ""; // Variable to store the previously active section
 
-  const handleScroll = _debounce(() => {
+  const handleScroll = () => {
     const sections = document.querySelectorAll("section");
     let maxOffset = 0;
     let activeSec = "";
@@ -27,14 +26,15 @@ const MyNavbar = () => {
 
     if (activeSec !== prevActiveSection) {
       setActiveSection(activeSec);
-      prevActiveSection = activeSec;
+      prevActiveSection = activeSec; // Update the previously active section
     }
-  }, 120);
+  };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
     return () => {
+      // Clean up event listener on component unmount
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
@@ -43,10 +43,6 @@ const MyNavbar = () => {
     event.preventDefault();
     const section = document.getElementById(sectionId);
     section.scrollIntoView({ behavior: "smooth" });
-
-    if (activeSection !== sectionId) {
-      setActiveSection(sectionId);
-    }
 
     if (expanded) {
       setExpanded(false);
