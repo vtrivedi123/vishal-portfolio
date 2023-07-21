@@ -19,8 +19,8 @@ function App() {
         <ShootingStar />
         <Name />
         <DownloadBTN />
-        <div className="fade-in-section-container">
-          <div className="fade-in-section-1">
+        <div className="fade-in-section-container flex flex-col items-center justify-center">
+          <div className="fade-in-section-1 max-w-4xl">
             <FadeInDown>
               &nbsp;&nbsp;&nbsp;I'm Vishal Trivedi, a college student on the pathway of Computer Science.
               <br />
@@ -34,7 +34,7 @@ function App() {
               Most of my interests mainly stemmed from my interest in Japanese anime and video games.
             </FadeInDown>
           </div>
-          <div className="fade-in-section-2">
+          <div className="fade-in-section-2 max-w-4xl">
             <FadeInUp>
               &nbsp;&nbsp;&nbsp;My time is spent trying to improve on my problem-solving abilities by using a straightforward 
               programming language called "lua" and the assistance of Chat GPT when I have troubles. 
@@ -46,15 +46,25 @@ function App() {
           </div>
         </div>
       </header>
-      <section id="about">ABOUT</section>
+      <section id="about" className="flex items-center justify-center py-16">
+        <h2 className="text-4xl font-bold" style={{ fontWeight: "800" }}>ABOUT</h2>
+      </section>
       <section id="about-i"></section>
-      <section id="academics">ACADEMICS</section>
+      <section id="academics" className="flex items-center justify-center py-16">
+        <h2 className="text-4xl font-bold">ACADEMICS</h2>
+      </section>
       <section id="academics-i"></section>
-      <section id="personal">PERSONAL</section>
+      <section id="personal" className="flex items-center justify-center py-16">
+        <h2 className="text-4xl font-bold">PERSONAL</h2>
+      </section>
       <section id="personal-i"></section>
-      <section id="downloads">DOWNLOADS</section>
+      <section id="downloads" className="flex items-center justify-center py-16">
+        <h2 className="text-4xl font-bold">DOWNLOADS</h2>
+      </section>
       <section id="downloads-i"></section>
-      <section id="contact">CONTACT</section>
+      <section id="contact" className="flex items-center justify-center py-16">
+        <h2 className="text-4xl font-bold">CONTACT</h2>
+      </section>
       <section id="contact-i"></section>
       <Footer />
     </div>
