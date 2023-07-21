@@ -1,0 +1,56 @@
+.button {
+  position: absolute;
+  bottom: -110px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  z-index: 100;
+  width: 50px;
+}
+
+.button_inner {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  padding-top: 100%; /* Maintain 1:1 aspect ratio for the image (height = width) */
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: auto;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.04);
+  font-weight: 100;
+  cursor: pointer;
+  border: none;
+  color: none;
+  text-align: center;
+  justify-content: center;
+  background-image: url('/src/Assets/downarrow.png'); /* Replace 'path/to/your/image.png' with the actual path to your image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image horizontally */
+  background-size: cover; /* Cover the entire container with the image */
+  opacity: 1; /* Initially set opacity to 1 (fully visible) */
+  transition: all 0.3s, box-shadow 0.2s;
+}
+
+.button_inner:hover {
+  color: #55b8d4;
+  background-image: url('/src/Assets/downarrow.png');
+
+  /* Move the button down slightly on hover with a smooth animation */
+  transform: translateY(5px); /* Adjust the value as per your preference */
+}
+
+/* Tailwind CSS Responsive Classes */
+@media (max-width: 1000px) {
+  .button {
+    position: relative;
+    bottom: -2vh;
+    top: auto;
+    left: auto;
+    right: auto;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 12px;
+  }
+}
