@@ -3,43 +3,15 @@ import { Navbar, Nav, OverlayTrigger, Tooltip } from "react-bootstrap";
 import LogoImage from "../Assets/gh.png";
 import "../Component/Navbar.css";
 
-const scrollToTop = (event) => {
-  event.preventDefault();
-  window.scrollTo({ top: 0, behavior: "smooth" });
-};
-
 const MyNavbar = () => {
   const [expanded, setExpanded] = useState(false);
   const [activeSection, setActiveSection] = useState("");
-  let prevActiveSection = ""; // Variable to store the previously active section
-
-  const handleScroll = () => {
-    const sections = document.querySelectorAll("section");
-    let maxOffset = 0;
-    let activeSec = "";
-    sections.forEach((section) => {
-      const { top, bottom } = section.getBoundingClientRect();
-      if (top >= 0 && bottom <= window.innerHeight) {
-        activeSec = section.id;
-      }
-    });
-
-    if (activeSec !== prevActiveSection) {
-      setActiveSection(activeSec);
-      prevActiveSection = activeSec; // Update the previously active section
-    }
+  const scrollToTop = (event) => {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      // Clean up event listener on component unmount
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const handleSectionClick = (event, sectionId) => {
+  const scrollToSection = (event, sectionId) => {
     event.preventDefault();
     const section = document.getElementById(sectionId);
     section.scrollIntoView({ behavior: "smooth" });
@@ -49,11 +21,17 @@ const MyNavbar = () => {
     }
   };
 
+  const handleSectionClick = (event, sectionId) => {
+    setActiveSection(sectionId);
+    scrollToSection(event, sectionId);
+  };
+
   const renderTooltip = (props) => (
     <Tooltip id="github-tooltip" {...props}>
       GitHub
     </Tooltip>
   );
+
   return (
     <Navbar
       bg="light"
