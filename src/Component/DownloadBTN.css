@@ -1,6 +1,6 @@
 .button {
   position: absolute;
-  bottom: 90px;
+  bottom: -110px;
   left: 0;
   right: 0;
   margin: auto;
@@ -38,10 +38,10 @@
 }
 
 /* Tailwind CSS Responsive Classes */
-@media (max-width: 1025px) {
+@media (max-width: 1000px) {
   .button {
     position: relative;
-    bottom: 25px;
+    bottom: -2vh;
     top: auto;
     left: auto;
     right: auto;
