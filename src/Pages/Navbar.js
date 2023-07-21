@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import LogoImage from "../Assets/gh.png"; // Replace "../assets/github-logo.png" with the path to your GitHub logo image.
 import "../Component/Navbar.css";
 
 const MyNavbar = () => {
@@ -35,6 +36,12 @@ const MyNavbar = () => {
             Contact me
           </Nav.Link>
         </Nav>
+        {/* Add the GitHub logo button here */}
+        <div className="github-logo-wrapper">
+          <Nav.Link href="https://github.com/vtrivedi123/vishal-portfolio" target="_blank" rel="noopener noreferrer">
+            <img src={LogoImage} alt="GitHub Logo" className="github-logo" />
+          </Nav.Link>
+        </div>
       </Navbar.Collapse>
     </Navbar>
   );
