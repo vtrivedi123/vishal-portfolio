@@ -1,6 +1,6 @@
 import React from "react";
 import '../Component/Name.css';
-import "../Component/DownloadBTN.css";
+//import "../Component/DownloadBTN.css";
 
 function NameAndButton() {
   const scrollToSection = (event, sectionId) => {
@@ -36,7 +36,7 @@ function NameAndButton() {
             <div className="absolute inset-0 flex items-center justify-center transition duration-300 bg-opacity-0 rounded-lg hover:bg-opacity-10 button_inner q">
               <i className="l ion-log-in"></i>
               <span className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
-                Downloads
+                {/* Downloads */}
               </span>
               <div className="b_l_quad"></div>
             </div>
