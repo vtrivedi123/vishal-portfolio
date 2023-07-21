@@ -47,23 +47,23 @@ function App() {
         </div>
       </header>
       <section id="about" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold" style={{ fontWeight: "800" }}>ABOUT</h2>
+        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>ABOUT</h2>
       </section>
       <section id="about-i"></section>
       <section id="academics" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold">ACADEMICS</h2>
+        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>ACADEMICS</h2>
       </section>
       <section id="academics-i"></section>
       <section id="personal" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold">PERSONAL</h2>
+        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>PERSONAL</h2>
       </section>
       <section id="personal-i"></section>
       <section id="downloads" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold">DOWNLOADS</h2>
+        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>DOWNLOADS</h2>
       </section>
       <section id="downloads-i"></section>
       <section id="contact" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold">CONTACT</h2>
+        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>CONTACT</h2>
       </section>
       <section id="contact-i"></section>
       <Footer />
