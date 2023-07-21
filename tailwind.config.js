@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontWeight: {
-        extrabold: 800,
+        extrabold: 100,
       },
     },
   },
