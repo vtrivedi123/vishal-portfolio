@@ -26,7 +26,7 @@
   cursor: pointer;
   padding: 10px 20px;
   margin-right: 10px;
-  margin-bottom: -5px;
+  margin-bottom: -11px; /* Change position of the content along the y axis */
   position: relative;
   transition: color 0.3s ease;
   color: #4b4b4b !important;
@@ -35,9 +35,9 @@
 .tabs li:after {
   content: '';
   position: absolute;
-  bottom: 10px;
+  bottom: 11px; /* Change position of the underline from bottom */
   left: 50%;
-  width: 100%;
+  width: 75%; /* Change width of the underline */
   height: 3px;
   background-color: #55b8d4;
   transform: translateX(-50%) scaleX(0);
@@ -64,13 +64,13 @@
 
 .tab-content {
   position: absolute;
-  top: 100%; /* Position the content below the tab menu */
+  top: 100%;
   left: 0;
   right: 0;
   background-color: none; /* Add a background color to ensure the content covers the tabs */
   padding: 10px;
   max-height: 400px; /* Set a fixed max-height for the content */
-  overflow-y: auto; /* Add scroll to enable scrolling if the content exceeds the max-height */
+  overflow-y: auto;
   color: #4b4b4b !important;
   text-align: center;
   font-size: 15px;
