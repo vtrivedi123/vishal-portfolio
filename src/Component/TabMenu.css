@@ -68,10 +68,15 @@
 }
 
 .tab-content {
-  height: 200px; /* Set a fixed height for the tab content area */
-  overflow: hidden; /* Hide any overflow content */
-  margin-top: 5px;
-  color: #000;
+  position: absolute;
+  top: 100%; /* Position the content below the tab menu */
+  left: 0;
+  right: 0;
+  background-color: none; /* Add a background color to ensure the content covers the tabs */
+  padding: 10px;
+  max-height: 200px; /* Set a fixed max-height for the content */
+  overflow-y: auto; /* Add scroll to enable scrolling if the content exceeds the max-height */
+  color: black;
 }
 
 .tab-pane {
@@ -80,4 +85,8 @@
 
 .tab-pane.active {
   display: block;
+}
+
+.education-content {
+  margin-right: 10px;
 }

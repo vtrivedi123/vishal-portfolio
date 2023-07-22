@@ -48,7 +48,7 @@ function App() {
           the assembly feature in Solidworks after modeling everything.
           </div>
         </div>
-        <div className="w-full max-w-l">
+        <div className="w-full max-w-lg px-4 mx-auto">
           <TabMenu />
         </div>
       </header>

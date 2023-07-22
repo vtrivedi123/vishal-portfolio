@@ -8,7 +8,7 @@ const AboutMe = () => {
       id: 1,
       title: 'Education',
       content: (
-        <div>
+        <div className='education-content'>
           <p>
             I have X years of experience in web development...
           </p>
@@ -35,7 +35,7 @@ const AboutMe = () => {
   ];
 
   return (
-    <div className="about-me-section">
+    <div className="about-me-section px-4 sm:px-6 lg:px-8">
       <TabMenu tabs={tabs} />
     </div>
   );
