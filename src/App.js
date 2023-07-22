@@ -11,6 +11,7 @@ import NameAndButton from "./Pages/NameAndButton.js";
 // import FadeInDown from "./Pages/FadeInDown";
 import ShootingStar from "./Pages/Particles";
 import Footer from "./Pages/Footer";
+import TabMenu from './Pages/AboutMe';
 
 
 function App() {
@@ -47,10 +48,13 @@ function App() {
           the assembly feature in Solidworks after modeling everything.
           </div>
         </div>
+        <div className="w-full max-w-l">
+          <TabMenu />
+        </div>
       </header>
       <section id="about" className="flex items-center justify-center py-16">
         <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>ABOUT</h2>
-      </section>
+      </section>      
       <section id="about-i"></section>
       <section id="academics" className="flex items-center justify-center py-16">
         <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>ACADEMICS</h2>

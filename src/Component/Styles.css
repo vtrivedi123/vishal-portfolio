@@ -1,45 +1,45 @@
 .textbox-container {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center the textbox horizontally */
-  padding: 20px; /* Add padding to the container */
-  background-color: #f0f0f0; /* Add background color to the container */
-  max-width: 100%; /* Set maximum width to 100% of the screen width */
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  max-width: 100%;
 }
 
 .textbox {
-  width: 100%; /* Take up the full width of the container */
-  max-width: 500px; /* Limit the maximum width of the textbox */
-  padding: 10px; /* Add padding to the textbox */
-  border: 1px solid #ccc; /* Add a border around the textbox */
-  resize: vertical; /* Allow vertical resizing of the textbox */
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
   color: #3b3b3c;
-  font-size: 15px; /* Use relative font size for responsiveness */
+  font-size: 15px;
   position: relative;
-  top: 100vh;
+  top: 107vh;
 }
 
 .textbox2 {
-  width: 100%; /* Take up the full width of the container */
-  max-width: 500px; /* Limit the maximum width of the textbox */
-  padding: 10px; /* Add padding to the textbox */
-  border: 1px solid #ccc; /* Add a border around the textbox */
-  resize: vertical; /* Allow vertical resizing of the textbox */
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
   color: #3b3b3c;
-  font-size: 15px; /* Use relative font size for responsiveness */
+  font-size: 15px;
   position: relative;
-  top: 105vh;
+  top: 112vh;
 }
 .textbox3 {
-  width: 100%; /* Take up the full width of the container */
-  max-width: 500px; /* Limit the maximum width of the textbox */
-  padding: 10px; /* Add padding to the textbox */
-  border: 1px solid #ccc; /* Add a border around the textbox */
-  resize: vertical; /* Allow vertical resizing of the textbox */
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
   color: #3b3b3c;
-  font-size: 15px; /* Use relative font size for responsiveness */
+  font-size: 15px;
   position: relative;
-  top: 160vh;
+  top: 167vh;
 }
 
 
@@ -48,45 +48,22 @@
   .textbox2-container {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the textbox horizontally */
-    padding: 20px; /* Add padding to the container */
-    background-color: #f0f0f0; /* Add background color to the container */
-    max-width: 100%; /* Set maximum width to 100% of the screen width */
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    max-width: 100%;
     top: 0;
   }
 
   .textbox {
-    width: 100%; /* Take up the full width of the container */
-    justify-content: center;
-    max-width: 500px; /* Limit the maximum width of the textbox */
-    padding: 10px; /* Add padding to the textbox */
-    border: 1px solid #ccc; /* Add a border around the textbox */
-    resize: vertical; /* Allow vertical resizing of the textbox */
-    color: #3b3b3c;
-    font-size: 15px; /* Use relative font size for responsiveness */
     position: relative;
     top: 125vh;
   }
   .textbox2 {
-    width: 100%; /* Take up the full width of the container */
-    justify-content: center;
-    max-width: 500px; /* Limit the maximum width of the textbox */
-    padding: 10px; /* Add padding to the textbox */
-    border: 1px solid #ccc; /* Add a border around the textbox */
-    resize: vertical; /* Allow vertical resizing of the textbox */
-    color: #3b3b3c;
-    font-size: 15px; /* Use relative font size for responsiveness */
     position: relative;
     top: 130vh;
   }
   .textbox3 {
-    width: 100%; /* Take up the full width of the container */
-    max-width: 500px; /* Limit the maximum width of the textbox */
-    padding: 10px; /* Add padding to the textbox */
-    border: 1px solid #ccc; /* Add a border around the textbox */
-    resize: vertical; /* Allow vertical resizing of the textbox */
-    color: #3b3b3c;
-    font-size: 15px; /* Use relative font size for responsiveness */
     position: relative;
     top: 170vh;
   }
