@@ -24,15 +24,10 @@ const AboutMe = () => {
       content: (
         <ul class="certlist">
 		      <li>Adobe Premiere Pro - 6/15/2020</li>
-          <br />
 		      <li>Microsoft Excel - 11/21/2019</li>
-          <br />
 		      <li>Microsoft Excel Expert - 12/17/2019</li>
-          <br />
 		      <li>Microsoft PowerPoint - 12/13/2018</li>
-          <br />
 		      <li>Microsoft Word - 11/14/2018</li>
-          <br />
 		      <li>Python Programming - 1/16/2020</li>
 	      </ul>
       ),
