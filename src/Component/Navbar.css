@@ -34,14 +34,6 @@ section {
   transition: transform 0.3s ease;
   transform-origin: 0 0;
 }
-.navbar-ani-under.active {
-  color: #55b8d4 !important;
-} 
-
-.navbar-ani-under.active:after {
-  transform: translateX(-50%) scaleX(1);
-  height: 2px;
-}
 
 .navbar-ani-under:hover {
   color: #55b8d4 !important;

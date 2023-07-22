@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Navbar, Nav, OverlayTrigger, Tooltip } from "react-bootstrap";
 import LogoImage from "../Assets/gh.png";
 import "../Component/Navbar.css";
 
 const MyNavbar = () => {
   const [expanded, setExpanded] = useState(false);
-  const [activeSection, setActiveSection] = useState("");
+
   const scrollToTop = (event) => {
     event.preventDefault();
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -19,11 +19,6 @@ const MyNavbar = () => {
     if (expanded) {
       setExpanded(false);
     }
-  };
-
-  const handleSectionClick = (event, sectionId) => {
-    setActiveSection(sectionId);
-    scrollToSection(event, sectionId);
   };
 
   const renderTooltip = (props) => (
@@ -50,63 +45,52 @@ const MyNavbar = () => {
         <Nav className="mr-auto mt-2 mt-lg-0">
           <Nav.Link
             href="about"
-            onClick={(e) => handleSectionClick(e, "about")}
-            className={`smooth-scroll navbar-ani-under ${
-              activeSection === "about" ? "active" : ""
-            }`}
+            onClick={(e) => scrollToSection(e, "about")}
+            className="smooth-scroll navbar-ani-under"
           >
             About
           </Nav.Link>
           <Nav.Link
             href="academics"
-            onClick={(e) => handleSectionClick(e, "academics")}
-            className={`smooth-scroll navbar-ani-under ${
-              activeSection === "academics" ? "active" : ""
-            }`}
+            onClick={(e) => scrollToSection(e, "academics")}
+            className="smooth-scroll navbar-ani-under"
           >
             Academics
           </Nav.Link>
           <Nav.Link
             href="personal"
-            onClick={(e) => handleSectionClick(e, "personal")}
-            className={`smooth-scroll navbar-ani-under ${
-              activeSection === "personal" ? "active" : ""
-            }`}
+            onClick={(e) => scrollToSection(e, "personal")}
+            className="smooth-scroll navbar-ani-under"
           >
             Personal
           </Nav.Link>
           <Nav.Link
-            href="downloads"
-            onClick={(e) => handleSectionClick(e, "downloads")}
-            className={`smooth-scroll navbar-ani-under ${
-              activeSection === "downloads" ? "active" : ""
-            }`}
+            href="contact"
+            onClick={(e) => scrollToSection(e, "downloads")}
+            className="smooth-scroll navbar-ani-under"
           >
             Downloads
           </Nav.Link>
           <Nav.Link
             href="contact"
-            onClick={(e) => handleSectionClick(e, "contact")}
-            className={`smooth-scroll navbar-ani-under ${
-              activeSection === "contact" ? "active" : ""
-            }`}
+            onClick={(e) => scrollToSection(e, "contact")}
+            className="smooth-scroll navbar-ani-under"
           >
             Contact me
           </Nav.Link>
         </Nav>
         {/* Add the GitHub logo button here */}
         <div className="github-logo-wrapper">
-          <OverlayTrigger placement="bottom" overlay={renderTooltip}>
+          <OverlayTrigger
+            placement="bottom"
+            overlay={renderTooltip}
+          >
             <Nav.Link
               href="https://github.com/vtrivedi123/vishal-portfolio"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={LogoImage}
-                alt="GitHub Logo"
-                className="github-logo"
-              />
+              <img src={LogoImage} alt="GitHub Logo" className="github-logo" />
             </Nav.Link>
           </OverlayTrigger>
         </div>
