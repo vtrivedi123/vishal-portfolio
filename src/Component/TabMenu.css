@@ -11,6 +11,7 @@
   position: relative;
   top: 30vh;
   right: 35vw;
+  margin: 0 auto;
 }
 
 .tabs {
@@ -84,5 +85,7 @@
 }
 
 .certlist {
-  list-style-position: inside;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }

@@ -9,7 +9,7 @@ const TabMenu = ({ tabs }) => {
   };
 
   return (
-    <div className="tab-menu-container"> {/* Wrap with the container div */}
+    <div className="tab-menu-container">
       <div className="tab-menu">
         <ul className="tabs">
           {tabs.map((tab) => (
