@@ -41,7 +41,7 @@
   height: 3px;
   background-color: #55b8d4;
   transform: translateX(-50%) scaleX(0);
-  transition: transform 0.4s ease;
+  transition: transform 0.52s ease;
   transform-origin: 0 0;
 }
 .tabs li:hover {
