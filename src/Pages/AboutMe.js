@@ -22,20 +22,20 @@ const AboutMe = () => {
       id: 2,
       title: 'Certifications',
       content: (
-        <div>
-          <p>
-            My technical skills include React, JavaScript, HTML, CSS...
-          </p>
-          <p>
-            Any other information about your certifications can be added here...
-          </p>
-        </div>
+        <ul class="certlist">
+		      <li>Adobe Premiere Pro - 6/15/2020</li>
+		      <li>Microsoft Excel - 11/21/2019</li>
+		      <li>Microsoft Excel Expert - 12/17/2019</li>
+		      <li>Microsoft PowerPoint - 12/13/2018</li>
+		      <li>Microsoft Word - 11/14/2018</li>
+		      <li>Python Programming - 1/16/2020</li>
+	      </ul>
       ),
     },
   ];
 
   return (
-    <div className="about-me-section px-4 sm:px-6 lg:px-8">
+    <div className="px-4 sm:px-6 lg:px-8">
       <TabMenu tabs={tabs} />
     </div>
   );
