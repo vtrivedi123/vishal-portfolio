@@ -25,13 +25,13 @@
   background-position: center;
   background-size: cover;
   opacity: 1;
-  transition: all 0.3s, box-shadow 0.2s;
+  transition: all 0.5s, box-shadow 0.2s;
 }
 
 .button_inner:hover {
   color: #55b8d4;
   background-image: url('/src/Assets/downarrow.png');
-  transform: translateY(5px);
+  transform: translateY(8px);
 }
 
 /* Tailwind CSS Responsive Classes */

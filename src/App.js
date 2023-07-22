@@ -20,7 +20,7 @@ function App() {
       <header className="App-header">
         <ShootingStar />
         <NameAndButton />
-        <div className="flex flex-col items-center justify-center px-4 py-8 md:max-w-4xl md:mx-auto container">
+        <div className="flex flex-col items-center justify-center px-4 py-8 md:max-w-4xl md:mx-auto .textbox-container">
           <div className="textbox w-full max-w-lg mb-8">
             &nbsp;&nbsp;&nbsp;I'm Vishal Trivedi, a college student on the pathway of Computer Science.
             <br />
@@ -40,6 +40,11 @@ function App() {
             <br />
             &nbsp;&nbsp;&nbsp;Along with that, I took apart the HTML code for the anime list portion of <a href="https://myanimelist.net" target="_blank" rel="noreferrer">MyAnimeList</a>&nbsp;and added 
             some custom elements to it.
+          </div>
+          <div className="textbox3 w-full max-w-lg">
+          I created this 3D model in my Engineering Graphics class at Wake Tech by using 
+          a measuring tool to get the exact dimensions and putting together the model using 
+          the assembly feature in Solidworks after modeling everything.
           </div>
         </div>
       </header>

@@ -117,6 +117,10 @@ section {
   background: #f3f7fa;
   justify-content: center;
   text-align: center;
+  box-sizing: border-box;
+  visibility: visible;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 #personal,
@@ -126,6 +130,10 @@ section {
   background: #f3f7fa;
   justify-content: center;
   text-align: center;
+  box-sizing: border-box;
+  visibility: visible;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 #downloads,
@@ -135,6 +143,10 @@ section {
   background: #eaf2fa;
   justify-content: center;
   text-align: center;
+  box-sizing: border-box;
+  visibility: visible;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 #about-i {
