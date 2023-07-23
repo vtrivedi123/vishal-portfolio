@@ -7,7 +7,9 @@
   max-width: 100%;
 }
 
-.textbox {
+.textbox,
+.textbox2,
+.textbox3 {
   width: 100%;
   max-width: 500px;
   padding: 10px;
@@ -16,41 +18,25 @@
   color: #3b3b3c;
   font-size: 15px;
   position: relative;
+}
+
+.textbox {
   top: 15vh;
 }
 
 .textbox2 {
-  width: 100%;
-  max-width: 500px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  resize: vertical;
-  color: #3b3b3c;
-  font-size: 15px;
-  position: relative;
   top: 20vh;
 }
 
-
-@media (max-width: 1025px) {
+@media (max-width: 726px) {
   .textbox-container,
   .textbox2-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    background-color: #f0f0f0;
-    max-width: 100%;
     top: 0;
   }
 
-  .textbox {
-    position: relative;
-  }
-  .textbox2 {
-    position: relative;
-  }
+  .textbox,
+  .textbox2,
   .textbox3 {
-    position: relative;
+    font-size: 3vw; /* Adjust this value as needed */
   }
 }
