@@ -52,31 +52,24 @@ const MyNavbar = () => {
           </Nav.Link>
           <Nav.Link
             href="academics"
-            onClick={(e) => scrollToSection(e, "academics")}
+            onClick={(e) => scrollToSection(e, "skills")}
             className="smooth-scroll navbar-ani-under"
           >
-            Academics
+            Skills
           </Nav.Link>
           <Nav.Link
             href="personal"
-            onClick={(e) => scrollToSection(e, "personal")}
+            onClick={(e) => scrollToSection(e, "projects")}
             className="smooth-scroll navbar-ani-under"
           >
-            Personal
-          </Nav.Link>
-          <Nav.Link
-            href="contact"
-            onClick={(e) => scrollToSection(e, "downloads")}
-            className="smooth-scroll navbar-ani-under"
-          >
-            Downloads
+            Projects
           </Nav.Link>
           <Nav.Link
             href="contact"
             onClick={(e) => scrollToSection(e, "contact")}
             className="smooth-scroll navbar-ani-under"
           >
-            Contact me
+            Contact
           </Nav.Link>
         </Nav>
         {/* Add the GitHub logo button here */}

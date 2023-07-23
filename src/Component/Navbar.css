@@ -123,8 +123,7 @@ section {
   text-size-adjust: 100%;
 }
 
-#personal,
-#contact {
+#projects {
   height: 30vh;
   color: #3b3b3c;
   background: #f3f7fa;
@@ -135,9 +134,8 @@ section {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
-
-#downloads,
-#academics {
+#skills,
+#contact {
   height: 30vh;
   color: #3b3b3c;
   background: #eaf2fa;
@@ -158,17 +156,15 @@ section {
   text-align: center;
 }
 
-#personal-i,
-#contact-i {
+#projects-i {
   height: 90vh;
   color: #3b3b3c;
   background: #f3f7fa;
   justify-content: center;
   text-align: center;
 }
-
-#downloads-i,
-#academics-i {
+#skills-i,
+#contact-i {
   height: 90vh;
   color: #3b3b3c;
   background: #eaf2fa;
@@ -178,10 +174,9 @@ section {
 
 @media (max-width: 768px) {
   #about,
-  #personal,
+  #projects,
   #contact,
-  #downloads,
-  #academics {
+  #skills {
     margin-top: 0;
     padding: 20px;
     text-align: left;

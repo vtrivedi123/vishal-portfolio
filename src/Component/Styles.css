@@ -16,7 +16,7 @@
   color: #3b3b3c;
   font-size: 15px;
   position: relative;
-  top: 105vh;
+  top: 97vh;
 }
 
 .textbox2 {
@@ -28,18 +28,7 @@
   color: #3b3b3c;
   font-size: 15px;
   position: relative;
-  top: 110vh;
-}
-.textbox3 {
-  width: 100%;
-  max-width: 500px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  resize: vertical;
-  color: #3b3b3c;
-  font-size: 15px;
-  position: relative;
-  top: 165vh;
+  top: 102vh;
 }
 
 

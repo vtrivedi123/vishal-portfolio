@@ -1,6 +1,7 @@
 import React from 'react';
 import TabMenu from './TabMenu';
 import '../Component/TabMenu.css';
+import '../Component/Certifications.css';
 
 const AboutMe = () => {
   const tabs = [

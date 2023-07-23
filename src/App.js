@@ -42,11 +42,6 @@ function App() {
             &nbsp;&nbsp;&nbsp;Along with that, I took apart the HTML code for the anime list portion of <a href="https://myanimelist.net" target="_blank" rel="noreferrer">MyAnimeList</a>&nbsp;and added 
             some custom elements to it.
           </div>
-          <div className="textbox3 w-full max-w-lg">
-          I created this 3D model in my Engineering Graphics class at Wake Tech by using 
-          a measuring tool to get the exact dimensions and putting together the model using 
-          the assembly feature in Solidworks after modeling everything.
-          </div>
         </div>
         <div className="w-full max-w-lg px-4 mx-auto">
           <TabMenu />
@@ -56,18 +51,14 @@ function App() {
         <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>ABOUT</h2>
       </section>      
       <section id="about-i"></section>
-      <section id="academics" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>ACADEMICS</h2>
+      <section id="skills" className="flex items-center justify-center py-16">
+        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>SKILLS</h2>
       </section>
-      <section id="academics-i"></section>
-      <section id="personal" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>PERSONAL</h2>
+      <section id="skills-i"></section>
+      <section id="projects" className="flex items-center justify-center py-16">
+        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>PROJECTS</h2>
       </section>
-      <section id="personal-i"></section>
-      <section id="downloads" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>DOWNLOADS</h2>
-      </section>
-      <section id="downloads-i"></section>
+      <section id="projects-i"></section>
       <section id="contact" className="flex items-center justify-center py-16">
         <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>CONTACT</h2>
       </section>

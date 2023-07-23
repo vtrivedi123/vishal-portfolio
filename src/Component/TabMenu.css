@@ -7,7 +7,6 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  max-width: 600px;
   position: relative;
   top: 30vh;
   right: 33vw;
@@ -69,11 +68,12 @@
   right: 0;
   background-color: none; /* Add a background color to ensure the content covers the tabs */
   padding: 10px;
-  max-height: 400px; /* Set a fixed max-height for the content */
+  max-height: 700px; /* Set a fixed max-height for the content */
   overflow-y: auto;
   color: #4b4b4b !important;
   text-align: center;
   font-size: 15px;
+  
 }
 
 .tab-pane {
