@@ -9,7 +9,7 @@ const AboutMe = () => {
   const tabs = [
     {
       id: 1,
-      title: 'Education',
+      title: 'Learned',
       content: (
         <div>
             <PictureGrid images={images} />
