@@ -12,7 +12,7 @@ const AboutMe = () => {
       title: 'Learned',
       content: (
         <div>
-            <PictureGrid images={images} />
+            <PictureGrid images={images.images} texts={images.texts} />
           </div>
       ),
     },
