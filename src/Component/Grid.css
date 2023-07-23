@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  justify-content: center; /* Centers the grid horizontally */
+  font-weight: normal !important;
+}
+
+.grid-item {
+  max-width: 100%;
+  max-height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to each image */
+  border-radius: 5px; /* Rounded corners for images */
+  overflow: hidden; /* Hide any overflowing parts of the image */
+  font-weight: normal !important;
+}
+
+/* Add some hover effects to the grid items */
+.grid-item:hover {
+  transform: scale(1.05); /* Slightly scale up the image on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  font-weight: normal !important;
+}

@@ -12,6 +12,8 @@ import NameAndButton from "./Pages/NameAndButton.js";
 import ShootingStar from "./Pages/Particles";
 import Footer from "./Pages/Footer";
 import TabMenu from './Pages/AboutMe';
+import PictureGrid from './Pages/GridLayout';
+import images from './Pages/Images'
 
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
       <header className="App-header">
         <ShootingStar />
         <NameAndButton />
+      </header>
+      <section id="about" className="flex items-center justify-center py-16">
+        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>ABOUT</h2>
         <div className="flex flex-col items-center justify-center px-4 py-8 md:max-w-4xl md:mx-auto .textbox-container">
           <div className="textbox w-full max-w-lg mb-8">
             &nbsp;&nbsp;&nbsp;I'm Vishal Trivedi, a college student on the pathway of Computer Science.
@@ -46,14 +51,19 @@ function App() {
         <div className="w-full max-w-lg px-4 mx-auto">
           <TabMenu />
         </div>
-      </header>
-      <section id="about" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>ABOUT</h2>
       </section>      
       <section id="about-i"></section>
       <section id="skills" className="flex items-center justify-center py-16">
         <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>SKILLS</h2>
+        <div className="grid-container">
+          {images.map((imageUrl, index) => (
+            <div className="grid-item" key={index}>
+              <img src={imageUrl} alt={`Image ${index + 1}`} />
+            </div>
+          ))}
+        </div>
       </section>
+      
       <section id="skills-i"></section>
       <section id="projects" className="flex items-center justify-center py-16">
         <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>PROJECTS</h2>
