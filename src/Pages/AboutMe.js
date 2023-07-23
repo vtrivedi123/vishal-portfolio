@@ -20,44 +20,52 @@ const AboutMe = () => {
       id: 2,
       title: 'Certifications',
       content: (
-        <div class="timeline">
+      <div className="timeline flex justify-between items-center">
+        {/* First empty block */}
+        <div className="timeline-empty w-1/5"></div>
 
-                  <div class="timeline-empty">
-                  </div>
+        {/* First circle */}
+        <div className="timeline-middle w-1/5 flex justify-center items-center">
+          <div className="timeline-circle w-4 h-4 rounded-full bg-black"></div>
+        </div>
 
-               <div class="timeline-middle">
-                   <div class="timeline-circle"></div>
-               </div>
-               <div class="timeline-component timeline-content">
-                <h3>2018</h3>
-                <p>Microsoft Word</p>
-                <p>Microsoft PowerPoint</p>
-           </div>
-                <div class="timeline-component timeline-content">
-                         <h3>2019</h3>
-                         <p>Microsoft Excel</p>
-                         <p>Microsoft Excel Expert</p>
-                </div>
-                <div class="timeline-middle">
-                    <div class="timeline-circle"></div>
-                </div>
-                <div class="timeline-empty">
-                </div>
+        {/* First content */}
+        <div className="timeline-component timeline-content w-3/5">
+          <h3>2018</h3>
+          <p>Microsoft Word</p>
+          <p>Microsoft PowerPoint</p>
+        </div>
 
-                <div class="timeline-empty">
-                </div>
+        {/* Second content */}
+        <div className="timeline-component timeline-content w-3/5">
+          <h3>2019</h3>
+          <p>Microsoft Excel</p>
+          <p>Microsoft Excel Expert</p>
+        </div>
 
-               <div class="timeline-middle">
-                   <div class="timeline-circle"></div>
-               </div>
-               <div class=" timeline-component timeline-content">
-                <h3>2020</h3>
-                <p>Python Programming</p>
-                <p>Adobe Premiere Pro</p>
-                
-           </div>
+        {/* Second circle */}
+        <div className="timeline-middle w-1/5 flex justify-center items-center">
+          <div className="timeline-circle w-4 h-4 rounded-full bg-black"></div>
+        </div>
 
-       </div>
+        {/* Second empty block */}
+        <div className="timeline-empty w-1/5"></div>
+
+        {/* Third empty block */}
+        <div className="timeline-empty w-1/5"></div>
+
+        {/* Third circle */}
+        <div className="timeline-middle w-1/5 flex justify-center items-center">
+          <div className="timeline-circle w-4 h-4 rounded-full bg-black"></div>
+        </div>
+
+        {/* Third content */}
+        <div className="timeline-component timeline-content w-3/5">
+          <h3>2020</h3>
+          <p>Python Programming</p>
+          <p>Adobe Premiere Pro</p>
+        </div>
+      </div>
       ),
     },
   ];
