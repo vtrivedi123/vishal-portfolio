@@ -20,14 +20,44 @@ const AboutMe = () => {
       id: 2,
       title: 'Certifications',
       content: (
-        <ul class="certlist">
-		      <li>Adobe Premiere Pro - 6/15/2020</li>
-		      <li>Microsoft Excel - 11/21/2019</li>
-		      <li>Microsoft Excel Expert - 12/17/2019</li>
-		      <li>Microsoft PowerPoint - 12/13/2018</li>
-		      <li>Microsoft Word - 11/14/2018</li>
-		      <li>Python Programming - 1/16/2020</li>
-	      </ul>
+        <div class="timeline">
+
+                  <div class="timeline-empty">
+                  </div>
+
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+               </div>
+               <div class="timeline-component timeline-content">
+                <h3>2018</h3>
+                <p>Microsoft Word</p>
+                <p>Microsoft PowerPoint</p>
+           </div>
+                <div class="timeline-component timeline-content">
+                         <h3>2019</h3>
+                         <p>Microsoft Excel</p>
+                         <p>Microsoft Excel Expert</p>
+                </div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty">
+                </div>
+
+                <div class="timeline-empty">
+                </div>
+
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+               </div>
+               <div class=" timeline-component timeline-content">
+                <h3>2020</h3>
+                <p>Python Programming</p>
+                <p>Adobe Premiere Pro</p>
+                
+           </div>
+
+       </div>
       ),
     },
   ];
