@@ -22,9 +22,9 @@ const texts = [
   'C++',
   'React JS',
   'Solidworks',
-  'Adobe Photoshop',
+  'Photoshop',
   'Node JS',
-  'Adobe Premiere Pro',
+  'Premiere Pro',
   'Microsoft Office',
   // Add more text content here corresponding to each image
 ];
