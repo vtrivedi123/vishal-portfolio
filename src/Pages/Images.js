@@ -10,7 +10,7 @@ const images = [
   'Assets/ps-icon.png',
   'Assets/nodejs-icon.png',
   'Assets/pr-icon.png',
-  'Assets/ms-icon.png',
+  'Assets/ms-office-icon.png',
   // Add more image URLs here
 ];
 
@@ -25,7 +25,7 @@ const texts = [
   'Adobe Photoshop',
   'Node JS',
   'Adobe Premiere Pro',
-  'Microsoft',
+  'Microsoft Office',
   // Add more text content here corresponding to each image
 ];
 
