@@ -9,7 +9,22 @@ section {
   font-size: 23px !important;
   font-weight: bold;
 }
-
+.sectionh2-about {
+  position: relative;
+  top: 100px;
+}
+.sectionh2-project {
+  position: relative;
+  top: 10px;
+}
+.sectionh2-contact {
+  position: relative;
+  top: 10px;
+}
+.sectionh2-skills {
+  position: relative;
+  top: 100px;
+}
 .nav {
   width: calc(100%);
   background-color: #fff;

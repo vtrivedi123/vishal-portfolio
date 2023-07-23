@@ -8,8 +8,8 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   position: relative;
-  right: 33vw;
-  bottom: 50vh;
+  right: 0vw;
+  top: 10vh;
 }
 
 .tabs {

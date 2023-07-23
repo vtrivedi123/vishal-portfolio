@@ -12,8 +12,6 @@ import NameAndButton from "./Pages/NameAndButton.js";
 import ShootingStar from "./Pages/Particles";
 import Footer from "./Pages/Footer";
 import TabMenu from './Pages/AboutMe';
-import PictureGrid from './Pages/GridLayout';
-import images from './Pages/Images'
 
 
 function App() {
@@ -25,7 +23,7 @@ function App() {
         <NameAndButton />
       </header>
       <section id="about" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>ABOUT</h2>
+        <h2 className="text-4xl font-bold sectionh2-about" style={{ fontWeight: "100" }}>ABOUT</h2>
         <div className="flex flex-col items-center justify-center px-4 py-8 md:max-w-4xl md:mx-auto .textbox-container">
           <div className="textbox w-full max-w-lg mb-8">
             &nbsp;&nbsp;&nbsp;I'm Vishal Trivedi, a college student on the pathway of Computer Science.
@@ -48,26 +46,24 @@ function App() {
             some custom elements to it.
           </div>
         </div>
+      </section>      
+      <section id="about-i">
+      </section>
+      <section id="skills" className="flex items-center justify-center py-16">
+        <h2 className="text-4xl font-bold sectionh2-skills" style={{ fontWeight: "100" }}>SKILLS</h2>
         <div className="w-full max-w-lg px-4 mx-auto">
           <TabMenu />
         </div>
-      </section>      
-      <section id="about-i"></section>
-      <section id="skills" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>SKILLS</h2>
-        <div>
-      <h1>Picture Grid Layout</h1>
-        <PictureGrid images={images} />
-      </div>
+          
       </section>
       
       <section id="skills-i"></section>
       <section id="projects" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>PROJECTS</h2>
+        <h2 className="text-4xl font-bold sectionh2-project" style={{ fontWeight: "100" }}>PROJECTS</h2>
       </section>
       <section id="projects-i"></section>
       <section id="contact" className="flex items-center justify-center py-16">
-        <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>CONTACT</h2>
+        <h2 className="text-4xl font-bold sectionh2-contact" style={{ fontWeight: "100" }}>CONTACT</h2>
       </section>
       <section id="contact-i"></section>
       <Footer />
