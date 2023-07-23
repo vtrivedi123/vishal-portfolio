@@ -39,4 +39,8 @@
   text-align: center; /* Align the text to the center */
   justify-content: bottom;
   color: #eaf2fa;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  top: 15px;
 }
