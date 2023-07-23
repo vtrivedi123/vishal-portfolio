@@ -93,5 +93,8 @@
   .tab-menu-container {
     width: 80vw;
   }
+  .tabs li {
+    font-size: 19px;
+  }
   
 }
