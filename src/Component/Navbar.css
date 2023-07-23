@@ -12,18 +12,26 @@ section {
 .sectionh2-about {
   position: relative;
   top: 100px;
+  align-items: center;
+  justify-content: center;
 }
 .sectionh2-project {
   position: relative;
   top: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .sectionh2-contact {
   position: relative;
   top: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .sectionh2-skills {
   position: relative;
   top: 70px;
+  align-items: center;
+  justify-content: center;
 }
 .nav {
   width: calc(100%);
