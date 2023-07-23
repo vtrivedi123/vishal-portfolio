@@ -12,13 +12,13 @@ const GridItem = styled.div`
   max-height: 200px;
 `;
 
-const PictureGrid = ({ images, texts }) => { // Pass the 'texts' prop along with 'images'
+const PictureGrid = ({ images, texts }) => {
   return (
     <div className="grid-container">
       {images.map((imageUrl, index) => (
-        <div className="grid-item" key={index}>
+        <div className={`grid-item ${texts[index] === 'Microsoft Office' ? 'microsoft-office' : texts[index] === 'Node JS' ? 'node-js' : ''}`} key={index}>
           <img src={imageUrl} alt={`Image ${index + 1}`} />
-          <p>{texts[index]}</p> {/* Add the text inside the box */}
+          <p>{texts[index]}</p>
         </div>
       ))}
     </div>
