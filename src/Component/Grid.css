@@ -55,10 +55,22 @@
 
 .node-js p {
   position: relative;
-  top: 33px;
+  top: 10px;
 }
 
 .node-js img {
   position: relative;
   bottom: 3px;
+  width: 67%;
+}
+
+.java p {
+  position: relative;
+  top: 10px;
+}
+
+.java img {
+  position: relative;
+  bottom: 3px;
+  width: 67%;
 }
