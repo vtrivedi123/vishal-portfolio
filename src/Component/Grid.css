@@ -14,26 +14,32 @@
   justify-content: top; /* Center the content vertically within the box */
   align-items: center; /* Center the content horizontally within the box */
   flex: 1; /* Allow the box to grow and take available space equally */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   font-weight: normal !important;
   padding-top: 15px;
   background-color: #78a0c8;
   font-weight: normal !important;
+  transition: transform 0.3s ease;
 }
 
 .grid-item img {
   width: 50%;
   height: auto;
-  object-fit: cover; /* Scale down images to fit the box while maintaining aspect ratio */
+  object-fit: cover;
 }
 
 .grid-item:hover {
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
   transition: transform 0.3s ease;
-  font-weight: normal !important;
 }
+.grid-item:not(:hover) {
+  /* Ease back when not hovering */
+  transform: scale(1) translateY(0);
+}
+
 .grid-item p {
   margin: 10px; /* Add some margin around the text */
   text-align: center; /* Align the text to the center */
@@ -66,11 +72,21 @@
 
 .java p {
   position: relative;
-  top: 10px;
+  top: 0px;
 }
 
 .java img {
   position: relative;
-  bottom: 3px;
-  width: 67%;
+  top: 10px;
+  width: 55%;
+}
+.python p {
+  position: relative;
+  bottom: 0px;
+}
+
+.python img {
+  position: relative;
+  top: 14px;
+  width: 50%;
 }
