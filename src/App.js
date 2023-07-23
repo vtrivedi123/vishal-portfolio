@@ -55,13 +55,10 @@ function App() {
       <section id="about-i"></section>
       <section id="skills" className="flex items-center justify-center py-16">
         <h2 className="text-4xl font-bold" style={{ fontWeight: "100" }}>SKILLS</h2>
-        <div className="grid-container">
-          {images.map((imageUrl, index) => (
-            <div className="grid-item" key={index}>
-              <img src={imageUrl} alt={`Image ${index + 1}`} />
-            </div>
-          ))}
-        </div>
+        <div>
+      <h1>Picture Grid Layout</h1>
+        <PictureGrid images={images} />
+      </div>
       </section>
       
       <section id="skills-i"></section>

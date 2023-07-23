@@ -6,7 +6,7 @@ section {
   display: grid;
   place-items: center;
   height: 100vh;
-  font-size: 32px;
+  font-size: 23px !important;
   font-weight: bold;
 }
 

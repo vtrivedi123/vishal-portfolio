@@ -1,6 +1,6 @@
 // images.js
 const images = [
-  'image1.jpg',
+  './assets/html.png',
   'image2.jpg',
   'image3.jpg',
   // Add more image URLs here
