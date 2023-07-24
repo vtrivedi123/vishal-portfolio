@@ -42,7 +42,7 @@ function App() {
             programming language called "lua" and the assistance of Chat GPT when I have troubles. 
             <br />
             <br />
-            &nbsp;&nbsp;&nbsp;Along with that, I took apart the HTML code for the anime list portion of MyAnimeList and added 
+            &nbsp;&nbsp;&nbsp;Along with that, I took apart CSS code for the anime list portion of MyAnimeList and added 
             some custom elements to it.
           </div>
         </div>
