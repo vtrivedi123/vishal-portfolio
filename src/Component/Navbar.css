@@ -265,14 +265,14 @@ section {
   #projects,
   #contact,
   #skills {
-    width: 107.6vw;
+    width: 115vw;
   }
 
   #about-i,
   #projects-i,
   #contact-i,
   #skills-i {
-    width: 107.6vw;
+    width: 115.2vw;
   }
 }
 @media (max-width: 352px) {
@@ -280,14 +280,14 @@ section {
   #projects,
   #contact,
   #skills {
-    width: 113.9vw;
+    width: 154.9vw;
   }
 
   #about-i,
   #projects-i,
   #contact-i,
   #skills-i {
-    width: 113.9vw;
+    width: 154.9vw;
   }
 }
 @media (max-width: 172px) {

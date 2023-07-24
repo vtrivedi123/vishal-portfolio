@@ -110,3 +110,44 @@
   position: relative;
   bottom: 0px;
 }
+@media screen and (max-width: 400px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  }
+
+  .grid-item img {
+    width: 100%;
+  }
+
+  .grid-item p {
+    font-size: 10px;
+  }
+  .java p {
+    font-size: 10px;
+  }
+  
+  .java img {
+    width: 100%;
+  }
+  .python p {
+    font-size: 10px;
+  }
+  
+  .python img {
+    width: 100%;
+  }
+  .css p {
+    font-size: 10px;
+  }
+  
+  .css img {
+    width: 100%;
+  }
+  .html p {
+    font-size: 10px;
+  }
+  
+  .html img {
+    width: 100%;
+  }
+}
