@@ -16,7 +16,13 @@ const PictureGrid = ({ images, texts }) => {
   return (
     <div className="grid-container">
       {images.map((imageUrl, index) => (
-        <div className={`grid-item ${texts[index] === 'Microsoft Office' ? 'microsoft-office' : texts[index] === 'Node JS' ? 'node-js' : texts[index] === 'Java' ? 'java' : texts[index] === 'Python' ? 'python' : ''}`} key={index}>
+        <div className={`grid-item ${texts[index] === 'Microsoft Office' ? 'microsoft-office' 
+        : texts[index] === 'Node JS' ? 'node-js' 
+        : texts[index] === 'Java' ? 'java' 
+        : texts[index] === 'Python' ? 'python' 
+        : texts[index] === 'CSS' ? 'css' 
+        : texts[index] === 'HTML' ? 'html' 
+        : ''}`} key={index}>
           <img src={imageUrl} alt={`Image ${index + 1}`} />
           <p>{texts[index]}</p>
         </div>

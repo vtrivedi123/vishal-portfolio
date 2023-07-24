@@ -10,7 +10,7 @@
 .grid-item {
   display: flex; /* Use flexbox */
   width: 100%;
-  height: 150px;
+  height: 130px;
   flex-direction: column; /* Stack the image and any other content vertically */
   justify-content: top; /* Center the content vertically within the box */
   align-items: center; /* Center the content horizontally within the box */
@@ -20,7 +20,7 @@
   overflow: hidden;
   font-weight: normal !important;
   padding-top: 15px;
-  background-color: #78a0c8;
+  background-color: #3a5b78;
   font-weight: normal !important;
   transition: transform 0.3s ease;
 }
@@ -45,9 +45,9 @@
   margin: 10px; /* Add some margin around the text */
   text-align: center; /* Align the text to the center */
   justify-content: bottom;
-  color: #eaf2fa;
-  font-weight: bold;
-  font-size: 18px;
+  color: #8cbae9;
+  font-weight: normal;
+  font-size: 15px;
   position: relative;
 }
 .microsoft-office p {
@@ -62,32 +62,51 @@
 
 .node-js p {
   position: relative;
-  top: 10px;
+  top: 5px;
 }
 
 .node-js img {
   position: relative;
-  bottom: 3px;
-  width: 67%;
+  top: 2px;
+  width: 50%;
 }
 
 .java p {
   position: relative;
-  top: 0px;
+  bottom: 10px;
 }
 
 .java img {
   position: relative;
-  top: 10px;
+  top: 0px;
   width: 55%;
 }
 .python p {
   position: relative;
-  bottom: 0px;
+  bottom: 10px;
 }
 
 .python img {
   position: relative;
-  top: 14px;
+  top: 4px;
   width: 50%;
+}
+.css p {
+  position: relative;
+  bottom: 4px;
+}
+
+.css img {
+  position: relative;
+  bottom: 0px;
+  width: 59%;
+}
+.html p {
+  position: relative;
+  bottom: 1px;
+}
+
+.html img {
+  position: relative;
+  bottom: 0px;
 }

@@ -28,8 +28,9 @@
   margin-bottom: -11px; /* Change position of the content along the y axis */
   position: relative;
   transition: color 0.3s ease;
-  color: #4b4b4b !important;
+  color: #4583c1 !important;
   font-size: 20px;
+  font-weight: bold;
 }
 .tabs li:after {
   content: '';

@@ -31,43 +31,44 @@ const MyNavbar = () => {
     <Navbar
       bg="light"
       expand="lg"
-      className="fixed-top nav smooth-scroll"
+      className="fixed-top nav smooth-scroll custom-text-color"
       expanded={expanded}
     >
-      <Navbar.Brand className="custom-margin" href="/" onClick={scrollToTop}>
+      <Navbar.Brand className="custom-margin custom-text-color" href="/" onClick={scrollToTop}>
         Portfolio
       </Navbar.Brand>
       <Navbar.Toggle
         aria-controls="navbarNavDropdown"
         onClick={() => setExpanded(!expanded)}
+        className="custom-dropdown-btn custom-dropdown-menu"
       />
       <Navbar.Collapse id="navbarNavDropdown">
-        <Nav className="mr-auto mt-2 mt-lg-0">
+        <Nav className="mr-auto mt-2 mt-lg-0 custom-text-color">
           <Nav.Link
             href="about"
             onClick={(e) => scrollToSection(e, "about")}
-            className="smooth-scroll navbar-ani-under"
+            className="smooth-scroll navbar-ani-under custom-text-color"
           >
             About
           </Nav.Link>
           <Nav.Link
             href="academics"
             onClick={(e) => scrollToSection(e, "skills")}
-            className="smooth-scroll navbar-ani-under"
+            className="smooth-scroll navbar-ani-under custom-text-color"
           >
             Skills
           </Nav.Link>
           <Nav.Link
             href="personal"
             onClick={(e) => scrollToSection(e, "projects")}
-            className="smooth-scroll navbar-ani-under"
+            className="smooth-scroll navbar-ani-under custom-text-color"
           >
             Projects
           </Nav.Link>
           <Nav.Link
             href="contact"
             onClick={(e) => scrollToSection(e, "contact")}
-            className="smooth-scroll navbar-ani-under"
+            className="smooth-scroll navbar-ani-under custom-text-color"
           >
             Contact
           </Nav.Link>

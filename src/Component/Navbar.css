@@ -1,5 +1,5 @@
 .custom-margin {
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 section {
@@ -10,24 +10,32 @@ section {
   font-weight: bold;
 }
 .sectionh2-about {
+  font-weight: bold !important;
+  color: #8babcb;
   position: relative;
   top: 100px;
   align-items: center;
   justify-content: center;
 }
 .sectionh2-project {
+  font-weight: bold !important;
+  color: #8babcb;
   position: relative;
   top: 10px;
   align-items: center;
   justify-content: center;
 }
 .sectionh2-contact {
+  font-weight: bold !important;
+  color: #8babcb;
   position: relative;
   top: 10px;
   align-items: center;
   justify-content: center;
 }
 .sectionh2-skills {
+  font-weight: bold !important;
+  color: #8babcb;
   position: relative;
   top: 70px;
   align-items: center;
@@ -35,14 +43,26 @@ section {
 }
 .nav {
   width: calc(100%);
-  background-color: #fff;
+  background-color: #26374d !important;
   padding: 100 1rem;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
+.custom-text-color{
+  color: #4583c1 !important;
+  font-weight: bold;
+}
+.custom-dropdown-btn {
+  background-color: #4583c1; /* Replace this with your desired button background color hex value */
+  color: #55b8d4; /* Replace this with the button text color */
+}
+
+.navbar-nav .nav-link {
+  color: #4583c1 !important; /* Replace this with the dropdown item text color */
+}
+
 .navbar-ani-under {
   position: relative;
   transition: color 0.3s ease;
-  color: #4b4b4b !important;
 }
 
 .navbar-ani-under:after {
@@ -136,8 +156,8 @@ section {
 #about {
   margin-top: -50px;
   height: 30vh;
-  color: #3b3b3c;
-  background: #f3f7fa;
+  color: #eaf2fa;
+  background: #1b2633;
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
@@ -148,8 +168,8 @@ section {
 
 #projects {
   height: 30vh;
-  color: #3b3b3c;
-  background: #f3f7fa;
+  color: #eaf2fa;
+  background: #1b2633;
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
@@ -157,11 +177,21 @@ section {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
-#skills,
+#skills {
+  height: 30vh;
+  color: #eaf2fa;
+  background: rgb(34, 46, 61);
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  visibility: visible;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 #contact {
   height: 30vh;
-  color: #3b3b3c;
-  background: #eaf2fa;
+  color: #eaf2fa;
+  background: rgb(34, 46, 61);
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
@@ -173,24 +203,30 @@ section {
 #about-i {
   margin-top: -50px;
   height: 90vh;
-  color: #3b3b3c;
-  background: #f3f7fa;
+  color: #eaf2fa;
+  background: #1b2633;
   justify-content: center;
   text-align: center;
 }
 
 #projects-i {
   height: 90vh;
-  color: #3b3b3c;
-  background: #f3f7fa;
+  color: #eaf2fa;
+  background: #1b2633;
   justify-content: center;
   text-align: center;
 }
-#skills-i,
+#skills-i {
+  height: 90vh;
+  color: #eaf2fa;
+  background: rgb(34, 46, 61);
+  justify-content: center;
+  text-align: center;
+}
 #contact-i {
   height: 90vh;
-  color: #3b3b3c;
-  background: #eaf2fa;
+  color: #eaf2fa;
+  background: rgb(34, 46, 61);
   justify-content: center;
   text-align: center;
 }
