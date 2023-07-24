@@ -243,6 +243,7 @@ section {
   background: rgb(34, 46, 61);
   justify-content: center;
   text-align: center;
+  border-bottom: 4px solid #4583c1;
 }
 
 @media (max-width: 768px) {
