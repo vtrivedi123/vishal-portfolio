@@ -1,3 +1,5 @@
+@import url('./Fonts.css');
+
 .custom-margin {
   margin-left: 15px;
 }
@@ -49,7 +51,9 @@ section {
 }
 .custom-text-color{
   color: #4583c1 !important;
-  font-weight: bold;
+  font-family: 'Orion-SemiBold', sans-serif;
+  letter-spacing: 0.11em;
+  font-size: 19px;
 }
 .custom-dropdown-btn {
   background-color: #4583c1;

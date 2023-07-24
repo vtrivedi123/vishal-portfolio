@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Orion-Bold';
+    src: url('/public/Fonts/Orion-Bold-BF645c5c9499c2e.otf') format('opentype'); /* Adjust the file format as needed */
+    /* Add more src lines for different font file formats, if needed */
+    font-weight: bold;
+    font-style: bold;
+  }
+
+@font-face {
+    font-family: 'Orion-Black';
+    src: url('/public/Fonts/Orion-Black-BF645c5c945c0f4.otf') format('opentype'); /* Adjust the file format as needed */
+    /* Add more src lines for different font file formats, if needed */
+    font-weight: bold;
+    font-style: bold;
+  }
+  @font-face {
+    font-family: 'Orion-SemiBold';
+    src: url('/public/Fonts/Orion-SemiBold-BF645c5c9530416.otf') format('opentype'); /* Adjust the file format as needed */
+    /* Add more src lines for different font file formats, if needed */
+    font-weight: bold;
+    font-style: bold;
+  }

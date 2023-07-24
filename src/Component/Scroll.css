@@ -1,6 +1,4 @@
 .button {
-  position: relative; /* Change position to relative to avoid overlapping issues */
-  margin: 20px auto;
   text-align: center;
   z-index: 100;
   width: 50px;
@@ -34,7 +32,6 @@
   transform: translateY(8px);
 }
 
-/* Tailwind CSS Responsive Classes */
 @media (max-width: 1000px) {
   .button {
     margin: 20px auto;
