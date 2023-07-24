@@ -20,16 +20,21 @@ footer {
 
 @media (min-width: 726px) and (max-width: 1025px) {
   footer {
-    width: 107%;
+    width: 107vw;
   }
 }
 @media (min-width: 353px) and (max-width: 725px) {
   footer {
-    width: 107%;
+    width: 115.9vw;
   }
 }
 @media (max-width: 352px) {
   footer {
-    width: 114%;
+    width: 154.9vw;
+  }
+}
+@media (max-width: 172px) {
+  footer {
+    width: 590.7vw;
   }
 }
