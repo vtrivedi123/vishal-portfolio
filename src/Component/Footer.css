@@ -17,3 +17,19 @@ footer {
   margin-top: auto;
   padding: 8px;
 }
+
+@media (min-width: 726px) and (max-width: 1025px) {
+  footer {
+    width: 107%;
+  }
+}
+@media (min-width: 353px) and (max-width: 725px) {
+  footer {
+    width: 107%;
+  }
+}
+@media (max-width: 352px) {
+  footer {
+    width: 114%;
+  }
+}
