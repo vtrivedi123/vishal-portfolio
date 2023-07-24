@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'Orion-Bold';
-    src: url('/public/Fonts/Orion-Bold-BF645c5c9499c2e.otf') format('opentype');
+    src: url('/public/Fonts/Orion/Orion-Bold-BF645c5c9499c2e.otf') format('opentype');
     font-weight: bold;
     font-style: bold;
 }
 
 @font-face {
     font-family: 'Orion-Black';
-    src: url('/public/Fonts/Orion-Black-BF645c5c945c0f4.otf') format('opentype');
+    src: url('/public/Fonts/Orion/Orion-Black-BF645c5c945c0f4.otf') format('opentype');
     font-weight: bold;
     font-style: bold;
 }
 @font-face {
     font-family: 'Orion-SemiBold';
-    src: url('/public/Fonts/Orion-SemiBold-BF645c5c9530416.otf') format('opentype');
+    src: url('/public/Fonts/Orion/Orion-SemiBold-BF645c5c9530416.otf') format('opentype');
     font-weight: bold;
     font-style: bold;
 }

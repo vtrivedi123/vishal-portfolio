@@ -1,3 +1,4 @@
+@import url('./Fonts.css');
 .tab-menu {
   display: flex;
   flex-direction: column;
@@ -31,6 +32,8 @@
   color: #4583c1 !important;
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Orion-SemiBold', sans-serif;
+  letter-spacing: 0.11em;
 }
 
 .tabs li:after {
