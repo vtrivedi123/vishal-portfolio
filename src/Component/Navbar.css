@@ -245,18 +245,48 @@ section {
     text-align: left;
   }
 }
-@media (max-width: 1025px) {
+@media (min-width: 726px) and (max-width: 1025px) {
   #about,
   #projects,
   #contact,
   #skills {
     width: 107vw;
   }
-  
+
   #about-i,
   #projects-i,
   #contact-i,
   #skills-i {
     width: 107vw;
+  }
+}
+@media (min-width: 353px) and (max-width: 725px) {
+  #about,
+  #projects,
+  #contact,
+  #skills {
+    width: 107vw;
+  }
+
+  #about-i,
+  #projects-i,
+  #contact-i,
+  #skills-i {
+    width: 107vw;
+  }
+}
+@media (max-width: 352px) {
+  #about,
+  #projects,
+  #contact,
+  #skills {
+    width: 113.7vw;
+  }
+
+  #about-i,
+  #projects-i,
+  #contact-i,
+  #skills-i {
+    width: 113.7vw;
   }
 }
