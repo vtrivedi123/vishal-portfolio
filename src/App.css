@@ -75,12 +75,18 @@
 @media (min-width: 353px) and (max-width: 725px) {
   .App-header {
     height: 100px;
-    width: 107vw;
+    width: 107.6vw;
   }
 }
 @media (max-width: 352px) {
   .App-header {
     height: 100px;
-    width: 113.7vw;
+    width: 113.9vw;
+  }
+}
+@media (max-width: 172px) {
+  .App-header {
+    height: 100px;
+    width: 379.7vw;
   }
 }

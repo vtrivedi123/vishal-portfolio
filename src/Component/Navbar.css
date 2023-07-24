@@ -265,14 +265,14 @@ section {
   #projects,
   #contact,
   #skills {
-    width: 107vw;
+    width: 107.6vw;
   }
 
   #about-i,
   #projects-i,
   #contact-i,
   #skills-i {
-    width: 107vw;
+    width: 107.6vw;
   }
 }
 @media (max-width: 352px) {
@@ -280,13 +280,28 @@ section {
   #projects,
   #contact,
   #skills {
-    width: 113.7vw;
+    width: 113.9vw;
   }
 
   #about-i,
   #projects-i,
   #contact-i,
   #skills-i {
-    width: 113.7vw;
+    width: 113.9vw;
+  }
+}
+@media (max-width: 172px) {
+  #about,
+  #projects,
+  #contact,
+  #skills {
+    width: 379.7vw;
+  }
+
+  #about-i,
+  #projects-i,
+  #contact-i,
+  #skills-i {
+    width: 379.7vw;
   }
 }
