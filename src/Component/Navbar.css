@@ -168,11 +168,12 @@ section {
   visibility: visible;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  border-top: 6px solid #4583c1;
 }
 
 #projects {
-  margin-top: -50px;
   height: 30vh;
+  margin-top: -50px;
   color: #eaf2fa;
   background: #1b2633;
   justify-content: center;
@@ -181,9 +182,9 @@ section {
   visibility: visible;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  border-top: 4px solid #4583c1;
 }
 #skills {
-  margin-top: -50px;
   height: 30vh;
   margin-top: -50px;
   color: #eaf2fa;
@@ -194,10 +195,11 @@ section {
   visibility: visible;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  border-top: 4px solid #4583c1;
 }
 #contact {
-  margin-top: -50px;
   height: 30vh;
+  margin-top: -50px;
   color: #eaf2fa;
   background: rgb(34, 46, 61);
   justify-content: center;
@@ -206,12 +208,12 @@ section {
   visibility: visible;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  border-top: 4px solid #4583c1;
 }
 
 #about-i {
-  margin-top: -50px;
-  margin-top: -50px;
   height: 90vh;
+  margin-top: -50px;
   color: #eaf2fa;
   background: #1b2633;
   justify-content: center;
@@ -219,24 +221,24 @@ section {
 }
 
 #projects-i {
-  margin-top: -50px;
   height: 90vh;
+  margin-top: -50px;
   color: #eaf2fa;
   background: #1b2633;
   justify-content: center;
   text-align: center;
 }
 #skills-i {
-  margin-top: -50px;
   height: 90vh;
+  margin-top: -50px;
   color: #eaf2fa;
   background: rgb(34, 46, 61);
   justify-content: center;
   text-align: center;
 }
 #contact-i {
-  margin-top: -50px;
   height: 90vh;
+  margin-top: -50px;
   color: #eaf2fa;
   background: rgb(34, 46, 61);
   justify-content: center;
