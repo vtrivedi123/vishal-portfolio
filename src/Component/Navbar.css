@@ -87,6 +87,10 @@ section {
   height: 2px;
 }
 
+.custom-tooltip-content {
+  color: #55b8d4;
+}
+
 @media (max-width: 1000px) {
   .navbar-ani-under {
     transition: color 0.2s ease !important;

@@ -23,7 +23,7 @@ const MyNavbar = () => {
 
   const renderTooltip = (props) => (
     <Tooltip id="github-tooltip" {...props}>
-      GitHub
+      <span className="custom-tooltip-content">GitHub</span>
     </Tooltip>
   );
 

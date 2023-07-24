@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -15,7 +16,8 @@
 
 .App-header {
   background-image: linear-gradient(#0c2342, #517693);
-  background-size: stretch;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 110vh;
   min-width: 6vw;
   display: flex;
@@ -29,6 +31,17 @@
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
+.background-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#0c2342, #517693);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .App-link {
   color: #61dafb;
