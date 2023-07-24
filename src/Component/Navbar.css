@@ -52,12 +52,12 @@ section {
   font-weight: bold;
 }
 .custom-dropdown-btn {
-  background-color: #4583c1; /* Replace this with your desired button background color hex value */
-  color: #55b8d4; /* Replace this with the button text color */
+  background-color: #4583c1;
+  color: #55b8d4;
 }
 
 .navbar-nav .nav-link {
-  color: #4583c1 !important; /* Replace this with the dropdown item text color */
+  color: #4583c1 !important;
 }
 
 .navbar-ani-under {
@@ -243,5 +243,20 @@ section {
     margin-top: 0;
     padding: 20px;
     text-align: left;
+  }
+}
+@media (max-width: 1025px) {
+  #about,
+  #projects,
+  #contact,
+  #skills {
+    width: 107vw;
+  }
+  
+  #about-i,
+  #projects-i,
+  #contact-i,
+  #skills-i {
+    width: 107vw;
   }
 }
