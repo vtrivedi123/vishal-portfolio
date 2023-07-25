@@ -17,3 +17,10 @@
     font-weight: bold;
     font-style: bold;
 }
+
+@font-face {
+    font-family: 'Orion-Light';
+    src: url('/public/Fonts/Orion/Orion-Light-BF645c5c94c5818.otf') format('opentype');
+    font-weight: lighter;
+    font-style: lighter;
+}

@@ -34,8 +34,10 @@ const MyNavbar = () => {
       className="fixed-top nav smooth-scroll custom-text-color"
       expanded={expanded}
     >
-      <Navbar.Brand className="custom-margin custom-text-color" href="/" onClick={scrollToTop}>
-        Portfolio
+      <Navbar.Brand className="custom-margin custom-text-color fade-in-animation" href="/" onClick={scrollToTop}>
+      <div class="textcontainer">
+        <span class="portfolio">Portfolio</span>
+      </div>
       </Navbar.Brand>
       <Navbar.Toggle
         aria-controls="navbarNavDropdown"

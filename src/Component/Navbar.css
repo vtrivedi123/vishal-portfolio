@@ -1,7 +1,37 @@
 @import url('./Fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 .custom-margin {
   margin-left: 15px;
+}
+.portfolio {
+  position: relative;
+  color: #4583c1;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+  border-right: 2px solid #4583c1;
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 710px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #4583c1;
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 section {
@@ -51,9 +81,7 @@ section {
 }
 .custom-text-color{
   color: #4583c1 !important;
-  font-family: 'Orion-SemiBold', sans-serif;
-  letter-spacing: 0.11em;
-  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
 }
 .custom-dropdown-btn {
   background-color: #4583c1;
@@ -173,6 +201,8 @@ section {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   border-top: 6px solid #4583c1;
+  font-family: 'Rubik', sans-serif;
+
 }
 
 #projects {
@@ -187,6 +217,7 @@ section {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   border-top: 4px solid #4583c1;
+  font-family: 'Rubik', sans-serif;
 }
 #skills {
   height: 30vh;
@@ -200,6 +231,7 @@ section {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   border-top: 4px solid #4583c1;
+  font-family: 'Rubik', sans-serif;
 }
 #contact {
   height: 30vh;
@@ -213,6 +245,7 @@ section {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   border-top: 4px solid #4583c1;
+  font-family: 'Rubik', sans-serif;
 }
 
 #about-i {
