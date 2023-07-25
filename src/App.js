@@ -9,7 +9,7 @@ import Navbar from "./Pages/Navbar.js";
 import NameAndButton from "./Pages/NameAndButton.js";
 // import FadeInUp from "./Pages/FadeInUp";
 // import FadeInDown from "./Pages/FadeInDown";
-import ShootingStar from "./Pages/Particles";
+//import ShootingStar from "./Pages/Particles";
 import Footer from "./Pages/Footer";
 import TabMenu from './Pages/AboutMe';
 
@@ -19,7 +19,6 @@ function App() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <ShootingStar />
         <NameAndButton />
       </header>
       <section id="about" className="flex items-center justify-center py-16">
