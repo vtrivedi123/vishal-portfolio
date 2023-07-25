@@ -251,7 +251,7 @@ section {
 }
 
 #about-i {
-  height: 105vh;
+  height: 90vh;
   margin-top: -50px;
   color: #eaf2fa;
   background: #1b2633;
@@ -260,7 +260,7 @@ section {
 }
 
 #projects-i {
-  height: 105vh;
+  height: 90vh;
   margin-top: -50px;
   color: #eaf2fa;
   background: #1b2633;
@@ -268,7 +268,7 @@ section {
   text-align: center;
 }
 #skills-i {
-  height: 105vh;
+  height: 90vh;
   margin-top: -50px;
   color: #eaf2fa;
   background: rgb(34, 46, 61);
@@ -276,7 +276,7 @@ section {
   text-align: center;
 }
 #contact-i {
-  height: 105vh;
+  height: 90vh;
   margin-top: -50px;
   color: #eaf2fa;
   background: rgb(34, 46, 61);
