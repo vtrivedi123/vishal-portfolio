@@ -13,8 +13,8 @@
   position: absolute;
   top: -50px; /* Adjust the initial position to start above the viewport */
   left: 50%; /* Center horizontally */
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   background: url(/public/Assets/Star.png) center center no-repeat;
   background-size: contain;
   animation: animate 1s linear infinite;
