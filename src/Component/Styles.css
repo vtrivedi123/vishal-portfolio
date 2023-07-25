@@ -34,7 +34,7 @@
   top: 20vh;
 }
 
-@media (max-width: 726px) {
+@media (max-height: 726px) {
   .textbox-container,
   .textbox2-container {
     top: 0;
@@ -43,6 +43,13 @@
   .textbox,
   .textbox2,
   .textbox3 {
-    font-size: 5vw;
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 300px) {
+  .textbox,
+  .textbox2,
+  .textbox3 {
+    font-size: 6vw;
   }
 }
