@@ -318,14 +318,14 @@ section {
   #projects,
   #contact,
   #skills {
-    width: 115.9vw;
+    width: 120.2vw;
   }
 
   #about-i,
   #projects-i,
   #contact-i,
   #skills-i {
-    width: 115.9vw;
+    width: 120.2vw;
   }
 }
 @media (max-width: 352px) {

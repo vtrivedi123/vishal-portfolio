@@ -1,81 +1,85 @@
-.shooting-star-container {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+
+.stars,
+.twinkling,
+.clouds {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100vh; /* Adjust the height to cover the full viewport */
-  pointer-events: none;
-  background: none;
-  overflow: hidden; /* Hide the overflow to ensure shooting stars only appear at the top */
-}
-
-.shooting-star-container span {
-  position: absolute;
-  top: -50px; /* Adjust the initial position to start above the viewport */
-  left: 50%; /* Center horizontally */
-  width: 15px;
-  height: 15px;
-  background: url(/public/Assets/Star.png) center center no-repeat;
-  background-size: contain;
-  animation: animate 1s linear infinite;
-  transform: translateX(-50%); /* Center horizontally */
-}
-
-.shooting-star-container span::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 300px;
-  height: 1px;
-  background: linear-gradient(90deg, #8babcb, transparent);
-}
-
-@keyframes animate {
-  0% {
-    transform: rotate(315deg) translateX(0);
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    transform: rotate(315deg) translateX(-1000px);
-    opacity: 0;
-    z-index: 100;
-  }
-}
-
-span:nth-child(1) {
-  top: 0;
   right: 0;
-  left: initial;
-  animation-delay: 0.1s; /* Increase the delay to 0.1 seconds */
-  animation-duration: 1s;
-  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
-span:nth-child(2) {
-  top: 80px;
-  right: 0px;
-  left: initial;
-  animation-delay: 1.5s; /* Increase the delay to 1.5 seconds */
-  animation-duration: 2s;
-  z-index: 100;
+.stars {
+  background: url(/public/Assets/stars.png) repeat top center;
+  z-index: 0;
 }
-span:nth-child(3) {
-  top: 0;
-  right: 180px;
-  left: initial;
-  animation-delay: 0.5s; /* Increase the delay to 0.5 seconds */
-  animation-duration: 1.5s;
-  z-index: 100;
+
+.clouds {
+  background: transparent url(/public/Assets/clouds.png) repeat top center;
+  z-index: 2;
+  opacity: 0.4;
+  animation: move-clouds-back 200s linear infinite;
 }
-span:nth-child(4) {
-  top: 0;
-  right: 400px;
-  left: initial;
-  animation-delay: 1.5s; /* Increase the delay to 1.5 seconds */
-  animation-duration: 2.5s;
-  z-index: 100;
+
+@media (min-width: 726px) and (max-width: 1025px) {
+  .stars,
+  .twinkling,
+  .clouds {
+    background-size: cover;
+    width: 107vw;
+  }
+}
+
+@media (min-width: 353px) and (max-width: 725px) {
+  .stars,
+  .twinkling,
+  .clouds {
+    background-size: 100% 100%;
+    width: 120vw;
+    height: 85vh;
+  }
+}
+
+@media (max-width: 352px) {
+  .stars,
+  .twinkling,
+  .clouds {
+    background-size: 100% 100%;
+    width: 154vw;
+    height: 90vh;
+  }
+}
+
+@media (max-width: 172px) {
+  .stars,
+  .twinkling,
+  .clouds {
+    background-size: 100% 100%;
+    width: 604vw;
+  }
 }
